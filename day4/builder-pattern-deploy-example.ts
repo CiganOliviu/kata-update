@@ -34,7 +34,7 @@ class ConcreteBuilder implements IBuilderPatternDeploy {
     public buildPartTwo(): void {
         this.developmentEnvironment.addParts('PartTwoOfDevelopment');
     }
-    
+
     public buildPartThree(): void {
         this.developmentEnvironment.addParts('PartThreeOfDevelopment');
     }
